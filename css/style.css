@@ -112,3 +112,13 @@ section.jumbotron div.img-jambotron {
     font-size: .9em;
     padding: 15px 0;
 }
+
+main section.dimension-section {
+    width: 70%;
+    margin: 0 auto;
+}
+
+h2.title-section {
+    padding-top: 180px;
+    font-size: 3em;
+}
