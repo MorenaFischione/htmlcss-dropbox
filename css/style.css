@@ -49,13 +49,54 @@ ul.menu-right li{
 }
 
 ul .button-inizia {
-    /* width: 80px;
-    height: 30px; */
     padding: 8px 20px;
-    background-color: rgb(69, 101, 243);
+    background-color: rgb(101, 167, 241);
     color: white;
     border: none;
     vertical-align: middle;
 }
 
+.jumbotron {
+    background-color: rgb(199, 219, 243);
+}
 
+
+div.container-jumbotron {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1.title-jumbotron {
+    font-size: 5em;
+}
+
+div.text-jumbotron {
+    width: 30%;
+}
+
+div.img-jambotron {
+    width: 60%;
+}
+
+section.jumbotron p.description-jumbotron {
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+.button {
+    padding: 12px 20px;
+    background-color: rgb(14, 95, 247);
+    color: white;
+    border: none;
+    font-size: 1.1em;
+}
+
+i.fas {
+    padding: 20px 0;
+    font-size: 40px;
+}
+
+#text-annulla {
+    font-size: .9em;
+    padding: 15px 0;
+}
