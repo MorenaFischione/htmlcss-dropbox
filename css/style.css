@@ -7,3 +7,55 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.logo {
+    vertical-align: middle;
+}
+
+nav.container-header {
+    padding: 30px;  
+}
+
+ul.menu-left li{
+    margin-left: 40px;
+    vertical-align: middle;
+}
+
+ul.menu-right li{
+    margin-right: 40px;
+    vertical-align: middle;
+}
+
+ul .button-inizia {
+    /* width: 80px;
+    height: 30px; */
+    padding: 8px 20px;
+    background-color: rgb(69, 101, 243);
+    color: white;
+    border: none;
+    vertical-align: middle;
+}
+
+
