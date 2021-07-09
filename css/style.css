@@ -15,7 +15,6 @@ ul {
 li {
     display: inline-block;
 }
-
 .clearfix::after{
     content: '';
     display: table;
@@ -64,6 +63,7 @@ ul .button-inizia {
 div.container-jumbotron {
     width: 80%;
     margin: 0 auto;
+    max-height: 580px;
 }
 
 h1.title-jumbotron {
@@ -94,6 +94,18 @@ section.jumbotron p.description-jumbotron {
 i.fas {
     padding: 20px 0;
     font-size: 40px;
+}
+
+section.jumbotron div.img-jambotron {
+    background-image: url(../img/jumbo.png);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    width: 60%;
+    left: 531px;
+    top: -300px;
 }
 
 #text-annulla {
