@@ -220,6 +220,7 @@ section.enterprise {
 
 .text-enterprise {
     padding-top: 35px;
+    padding-right: 40px;
 }
 
 section h5 {
@@ -231,7 +232,8 @@ section h5 {
     padding-top: 20px;
 }
 
-.title-section-enterprise {
+.title-section-enterprise,
+.title-section-partner {
     font-weight: 700;
     font-size: 1.7em;
     padding-top: 13px;
@@ -251,8 +253,11 @@ div.content-img-partner {
     padding-left: 80px;
 }
 
-.text-img-partner {
-    line-height: 30px;;
+.text-img-partner,
+.text-img-coll {
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 1.1em;
 }
 
 .button-partner {
@@ -262,4 +267,32 @@ div.content-img-partner {
     margin-top: 20px;
     font-size: 1.1em;
     background-color: white;
+}
+
+/* quarta sezione */
+
+section.partner h2 {
+    font-size: 3em;
+    padding-top: 100px;
+}
+
+div.contain-coll {
+    max-width: calc(100% / 3 - 2px)
+}
+
+
+div.coll>.img-coll {
+    max-width: 400px;
+}
+
+section.partner div.contain-coll {
+    padding-top: 50px;
+}
+
+span.underline {
+    text-decoration: underline;
+}
+
+div.contain-coll div.coll-2 {
+    padding: 0 5px;
 }
