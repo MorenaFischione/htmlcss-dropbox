@@ -63,10 +63,7 @@ ul .button-inizia {
 div.container-jumbotron {
     width: 80%;
     margin: 0 auto;
-    max-height: 580px;
-    position: relative;
-    bottom: -20px;
-    right: 20px;
+    max-height: 800px;
 }
 
 h1.title-jumbotron {
@@ -74,12 +71,10 @@ h1.title-jumbotron {
 }
 
 div.text-jumbotron {
-    width: 28%;
+    width: 25%;
+    padding-top: 70px;
 }
 
-div.img-jambotron {
-    width: 60%;
-}
 
 section.jumbotron p.description-jumbotron {
     line-height: 25px;
@@ -87,6 +82,7 @@ section.jumbotron p.description-jumbotron {
 }
 
 .button {
+    width: 281px;
     padding: 12px 20px;
     background-color: rgb(14, 95, 247);
     color: white;
@@ -99,14 +95,13 @@ i.freccia {
     font-size: 40px;
 }
 
-section.jumbotron div.img-jambotron {
-    background-image: url(../img/jumbo.png);
-    height: 400px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 70%;
+section.jumbotron .dimention-img-jb {
+    max-width: 70%;
+    position:relative;
+    top: 70px;
+    right: 20px;
 }
+
 
 #text-annulla {
     font-size: .9em;
@@ -129,21 +124,79 @@ h2.title-section {
     padding-left: 5px;
 }
 
+/* prima colonna aside*/
+
+ul a {
+    color: rgb(14, 95, 247);
+}
+
+aside.aside .column {
+    padding-left: 30px;
+    padding-right: 23px;
+}
+
 aside.aside {
-    width: 30%;
+    width: 25%;
+    min-height: 1000px;
     margin-top: 30px;
     border: 1px solid lightgray;
+    margin-right: 80px;  
 }
 
 .title-header-aside {
     font-weight: 500;
     text-align: center;
-    padding: 10px;
+    padding: 12px;
 }
 
 .man {
-    padding: 0 10px;
     filter: invert(80%);
 }
 
-.
+.padding-icone {
+    padding-right: 7px;
+}
+
+
+.title-main-aside {
+    font-weight: 700;
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.price-main-aside {
+    font-weight: 700;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+
+.cadence-price-aside {
+    color: rgb(133, 131, 131);
+    padding-bottom: 30px;
+}
+
+.text-aside {
+    font-size: .9em;
+    padding: 15px 15px 15px 0px;
+}
+
+.linea {
+    width: 50px;
+    height: 10px;
+    border-top: 1px solid rgb(167, 165, 165);
+}
+
+.title-main-botton {
+    font-size: .9em;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.color-icon {
+    color: rgb(14, 95, 247);
+}
+
+section.column li {
+    line-height: 20px;
+}
