@@ -238,5 +238,28 @@ section h5 {
     padding-bottom: 20px;
 }
 
+/* sezione partner */
 
+img.img-partner {
+        max-width: 55%;
+        padding-top: 150px;
+}
 
+div.content-img-partner {
+    max-width: 42%;
+    padding-top: 180px;
+    padding-left: 80px;
+}
+
+.text-img-partner {
+    line-height: 30px;;
+}
+
+.button-partner {
+    width: 165px;
+    border: 1px solid black;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 1.1em;
+    background-color: white;
+}
