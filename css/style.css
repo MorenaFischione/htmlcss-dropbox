@@ -305,32 +305,27 @@ div.contain-coll div.coll-2 {
     max-width: 52%;
 }
 
-div.contain-logo-customers {
-    max-width: 30%;
-    height: 300px;}
-
-div.contain-designit {
-    max-width: 40%;
+.container-customers {
+    width: 30%;
+    height: 300px;
 }
 
-div.img-customer {
-    max-width: 50%;
-}
-
-img.img-logo-designit,
-img.img-logo-asu {
+.contain-logo {
     width: 50%;
-    min-height: 300px;
-    color: white;
-    position: relative;
-    left: 24%;
+    height: 50%;
+    background-color: aqua; 
 }
 
-.bg-color-green {
-    background-color: rgb(167, 231, 167, .5);
+.img-contain-logo {
+    width: 50%;
+    height: 50%;
 }
 
-.bg-color-brown {
-    background-color: brown;
+.logo {
+    width: 100%;
+    height: 100%;
 }
 
+/* div.img-logo > img.logo {
+    width: 100%;
+} */
