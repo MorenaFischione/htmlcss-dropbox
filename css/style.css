@@ -133,17 +133,22 @@ div a.color-link {
     color: rgb(14, 95, 247);
 }
 
+.aside-center {
+    margin: 30px 67px;
+}
+
 aside.aside .column {
     padding-left: 30px;
     padding-right: 23px;
 }
 
+
+
 aside.aside {
-    width: 25%;
+    width: 30%;
     min-height: 1000px;
     margin-top: 30px;
     border: 1px solid lightgray;
-    margin-right: 80px;  
 }
 
 .title-header-aside {
@@ -278,8 +283,12 @@ section.partner h2 {
     padding-top: 100px;
 }
 
+.coll-center {
+    margin: 0 67px;
+}
+
 div.contain-coll {
-    max-width: calc(100% / 3 - 2px)
+    max-width: 30%;
 }
 
 
@@ -388,27 +397,6 @@ h2.section-free-trial {
     margin-right: 50px;
 }
 
-/* .text-title-questions {
-    font-size: 2em;
-    padding-top: 200px;
-    padding-bottom: 50px; 
-}
-
-.fa-angle-down {
-    text-align: right;
-    margin-right: 20px;
-}
-
-li>p {
-    display: inline-block;
-}
-
-li.questions {
-    font-size: 1.3em;
-    font-weight: 600;
-    padding: 50px 35px 20px 0;
-} */
-
 .text-title-questions {
     font-size: 2em;
     padding-top: 200px;
@@ -424,4 +412,22 @@ div.questions {
     font-size: 1.3em;
     font-weight: 600;
     padding: 50px 35px 20px 0;
+}
+
+/* area footer  */
+
+div.dropbox {
+    padding: 112.75px;
+    margin-top: 80px;
+    background-color: black;
+    color: white;
+}
+
+div.dropbox h4 {
+    font-size: 1.2em;
+    padding-bottom: 25px;
+}
+
+li.indicizzazione {
+    line-height: 28px;
 }
