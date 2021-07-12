@@ -108,7 +108,8 @@ section.jumbotron .dimention-img-jb {
     padding: 15px 0;
 }
 
-main section.dimension-section {
+main section.dimension-section,
+div.dimention-section {
     width: 70%;
     margin: 0 auto;
     padding-bottom: 50px;
@@ -127,7 +128,8 @@ h2.title-section {
 
 /* prima colonna aside*/
 
-ul a {
+ul a,
+div a.color-link {
     color: rgb(14, 95, 247);
 }
 
@@ -295,4 +297,30 @@ span.underline {
 
 div.contain-coll div.coll-2 {
     padding: 0 5px;
+}
+
+/* quinta sezione  */
+
+.section-team-top {
+    max-width: 52%;
+}
+
+div.contain-logo-customers {
+    max-width: 30%;
+    height: 300px;}
+
+div.contain-designit {
+    max-width: 40%;
+}
+
+div.img-customer {
+    max-width: 50%;
+    background-color: rgb(167, 231, 167, .5);
+}
+
+img.img-logo-designit {
+    width: 50%;
+    height: 300px;
+    vertical-align: middle;
+    margin-left: 52px;
 }
