@@ -29,7 +29,7 @@ header li {
     float: right;
 }
 
-.logo {
+.logo-dropbox  {
     vertical-align: middle;
 }
 
@@ -108,12 +108,12 @@ section.jumbotron .dimention-img-jb {
     padding: 15px 0;
 }
 
-main section.dimension-section,
-div.dimention-section {
+.dimension-section {
     width: 70%;
     margin: 0 auto;
     padding-bottom: 50px;
 }
+
 
 h2.title-section {
     padding-top: 250px;
@@ -301,8 +301,10 @@ div.contain-coll div.coll-2 {
 
 /* quinta sezione  */
 
+
+
 .section-team-top {
-    max-width: 52%;
+    max-width: 65%;
 }
 
 .container-customers {
@@ -322,9 +324,7 @@ div.contain-coll div.coll-2 {
     filter: invert(1);
 }
 
-/* div.img-logo > img.logo {
-    width: 100%;
-} */
+
 .bg-green {
     background-color: rgb(179, 243, 213); 
 }
@@ -339,4 +339,89 @@ div.contain-coll div.coll-2 {
 
 .bg-red {
     background-color: red;
+}
+
+.bg-dark-red {
+    background-color: rgb(190, 3, 3);
+}
+
+.bg-light-blue {
+    background-color: rgb(199, 219, 243);
+}
+
+.bg-dark-blue {
+    background-color: rgb(7, 51, 133);
+}
+
+.bg-yeallow {
+    background-color: rgb(235, 205, 39);
+}
+
+.logo-designit {
+    width: 180px;
+    padding-bottom: 50px;
+}
+
+div.text-contain-prinse {
+    width: 40%;
+    min-height: 500px;
+    padding: 50px 60px;
+    background-color: rgb(235, 233, 233);
+}
+
+.text-img-coll {
+    padding-top: 35px;
+}
+
+h2.section-free-trial {
+    max-width: 700px;
+    color: rgb(122, 33, 33);
+    font-size: 3em;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    vertical-align: middle;
+    margin-top: 130px;
+}
+
+.button-contatta {
+    margin-top: 165px;
+    margin-right: 50px;
+}
+
+/* .text-title-questions {
+    font-size: 2em;
+    padding-top: 200px;
+    padding-bottom: 50px; 
+}
+
+.fa-angle-down {
+    text-align: right;
+    margin-right: 20px;
+}
+
+li>p {
+    display: inline-block;
+}
+
+li.questions {
+    font-size: 1.3em;
+    font-weight: 600;
+    padding: 50px 35px 20px 0;
+} */
+
+.text-title-questions {
+    font-size: 2em;
+    padding-top: 200px;
+    padding-bottom: 50px; 
+}
+
+
+div.questions p {
+    display: inline-block;
+}
+
+div.questions {
+    font-size: 1.3em;
+    font-weight: 600;
+    padding: 50px 35px 20px 0;
 }
