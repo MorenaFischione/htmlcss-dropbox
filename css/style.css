@@ -154,7 +154,7 @@ aside.aside {
 }
 
 .man {
-    filter: invert(80%);
+    filter: invert(1);
 }
 
 .padding-icone {
@@ -307,25 +307,36 @@ div.contain-coll div.coll-2 {
 
 .container-customers {
     width: 30%;
-    height: 300px;
 }
 
 .contain-logo {
     width: 50%;
-    height: 50%;
-    background-color: aqua; 
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
 }
 
-.img-contain-logo {
-    width: 50%;
-    height: 50%;
-}
 
 .logo {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    filter: invert(1);
 }
 
 /* div.img-logo > img.logo {
     width: 100%;
 } */
+.bg-green {
+    background-color: rgb(179, 243, 213); 
+}
+
+.bg-brown {
+    background-color: brown;
+}
+
+.bg-blue {
+    background-color: rgb(71, 137, 199);
+}
+
+.bg-red {
+    background-color: red;
+}
