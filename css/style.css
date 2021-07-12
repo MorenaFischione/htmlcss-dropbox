@@ -315,12 +315,22 @@ div.contain-designit {
 
 div.img-customer {
     max-width: 50%;
+}
+
+img.img-logo-designit,
+img.img-logo-asu {
+    width: 50%;
+    min-height: 300px;
+    color: white;
+    position: relative;
+    left: 24%;
+}
+
+.bg-color-green {
     background-color: rgb(167, 231, 167, .5);
 }
 
-img.img-logo-designit {
-    width: 50%;
-    height: 300px;
-    vertical-align: middle;
-    margin-left: 52px;
+.bg-color-brown {
+    background-color: brown;
 }
+
