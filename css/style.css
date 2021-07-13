@@ -20,6 +20,7 @@ header ul li a {
 header li {
     display: inline-block;
 }
+
 .clearfix::after{
     content: '';
     display: table;
@@ -34,9 +35,6 @@ header li {
     float: right;
 }
 
-.logo-dropbox  {
-    vertical-align: middle;
-}
 
 nav.container-header {
     padding: 30px;  
@@ -194,7 +192,8 @@ aside.aside {
     padding-bottom: 30px;
 }
 
-.text-aside {
+.text-aside,
+.text-section-enterprise {
     font-size: .9em;
     padding: 15px 15px 15px 0px;
 }
@@ -300,15 +299,12 @@ section.partner h2 {
 
 div.contain-coll {
     max-width: 30%;
+    padding-top: 50px;
 }
 
 
 div.coll>.img-coll {
     max-width: 400px;
-}
-
-section.partner div.contain-coll {
-    padding-top: 50px;
 }
 
 span.underline {
@@ -392,7 +388,7 @@ div.contain-coll div.coll-2 {
 }
 
 .bg-brown {
-    background-color: brown;
+    background-color: rgb(104, 28, 28);
 }
 
 .bg-blue {
@@ -465,8 +461,8 @@ div.questions p {
 }
 
 div.questions {
-    font-size: 1.3em;
-    font-weight: 600;
+    font-size: 1.1em;
+    font-weight: 700;
     padding: 50px 35px 20px 0;
 }
 
