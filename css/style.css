@@ -8,6 +8,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+ul  a{
+    text-decoration: none;
+} 
+
 ul {
     list-style-type: none;
 }
@@ -133,6 +137,10 @@ div a.color-link {
     color: rgb(14, 95, 247);
 }
 
+header ul a {
+    color:black;
+}
+
 .aside-center {
     margin: 30px 67px;
 }
@@ -159,7 +167,7 @@ aside.aside {
 }
 
 .man {
-    filter: invert(1);
+    filter: invert();
 }
 
 .padding-icone {
@@ -192,7 +200,6 @@ aside.aside {
 
 .linea {
     width: 50px;
-    height: 10px;
     border-top: 1px solid rgb(167, 165, 165);
 }
 
@@ -217,12 +224,14 @@ section.dimension-enterprise {
     border: 1px solid lightgray;
 }
 
-.border-bottom {
-border-bottom: 1px solid lightgray;
+.border {    
+border: 1px solid lightgray;
 }
 
 section.enterprise {
     padding-left: 35px;
+    margin-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 .text-enterprise {
@@ -392,7 +401,7 @@ h2.section-free-trial {
     margin-top: 130px;
 }
 
-.button-contatta {
+.button-contatta-prova {
     margin-top: 165px;
     margin-right: 50px;
 }
@@ -416,12 +425,19 @@ div.questions {
 
 /* area footer  */
 
+.contain-footer {
+    width: 70%;
+    margin: 0 auto;
+}
+
 div.dropbox {
-    padding: 112.75px;
     margin-top: 80px;
+    margin-left: 170px;
+    padding-bottom: 100px;
     background-color: black;
     color: white;
 }
+
 
 div.dropbox h4 {
     font-size: 1.2em;
@@ -430,4 +446,36 @@ div.dropbox h4 {
 
 li.indicizzazione {
     line-height: 28px;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+footer ul a {
+    color: white;
+}
+
+div.linea-footer {
+    width: 120px;
+    margin-left: 170px;
+    padding-bottom: 100px;
+    background-color: black;
+    color: white;
+}
+
+.text-italian {
+    margin-left: 170px;
+    padding-bottom: 100px;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .8em;
+}
+
+div.text-italian i.fa-globe-americas {
+    padding: 0 20px 0 0;
+}
+
+div.text-italian i.fa-caret-up {
+    padding: 0 0 0 20px;
 }
