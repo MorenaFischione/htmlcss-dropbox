@@ -8,9 +8,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-ul  a{
-    text-decoration: none;
-} 
 
 ul {
     list-style-type: none;
@@ -53,30 +50,31 @@ ul.menu-right li{
 
 ul .button-inizia {
     padding: 8px 20px;
-    background-color: rgb(101, 167, 241);
+    background-color: rgb(23, 91, 238);
     color: white;
     border: none;
     vertical-align: middle;
 }
 
 .jumbotron {
-    background-color: rgb(199, 219, 243);
+    background-color: rgb(198, 223, 243);
 }
 
 
 div.container-jumbotron {
     width: 80%;
     margin: 0 auto;
-    max-height: 800px;
+    max-height: 860px;
 }
 
 h1.title-jumbotron {
     font-size: 5em;
+    padding-bottom: 70px;
+    padding-top: 70px;
 }
 
 div.text-jumbotron {
     width: 25%;
-    padding-top: 70px;
 }
 
 
@@ -86,12 +84,13 @@ section.jumbotron p.description-jumbotron {
 }
 
 .button {
-    width: 281px;
-    padding: 12px 20px;
-    background-color: rgb(14, 95, 247);
+    width: 340px;
+    padding: 12px 24px;
+    background-color: rgb(15, 87, 221);
     color: white;
     border: none;
     font-size: 1.1em;
+    margin-top: 15px;
 }
 
 i.freccia {
@@ -101,9 +100,7 @@ i.freccia {
 
 section.jumbotron .dimention-img-jb {
     max-width: 70%;
-    position:relative;
-    top: 70px;
-    right: 20px;
+    padding-left: 20px;
 }
 
 
@@ -167,7 +164,7 @@ aside.aside {
 }
 
 .man {
-    filter: invert();
+    filter: invert(.9);
 }
 
 .padding-icone {
@@ -201,13 +198,14 @@ aside.aside {
 .linea {
     width: 50px;
     border-top: 1px solid rgb(167, 165, 165);
+    margin-top: 20px;
 }
 
 .title-main-botton,
 .info-enterprise {
     font-size: .9em;
-    padding-top: 20px;
-    padding-bottom: 15px;
+    padding-top: 35px;
+    padding-bottom: 20px;
 }
 
 .color-icon {
@@ -389,6 +387,7 @@ div.text-contain-prinse {
 
 .text-img-coll {
     padding-top: 35px;
+    padding-bottom: 20px;
 }
 
 h2.section-free-trial {
@@ -404,6 +403,8 @@ h2.section-free-trial {
 .button-contatta-prova {
     margin-top: 165px;
     margin-right: 50px;
+    background-color: white;
+    color: black;
 }
 
 .text-title-questions {
@@ -421,6 +422,10 @@ div.questions {
     font-size: 1.3em;
     font-weight: 600;
     padding: 50px 35px 20px 0;
+}
+
+hr {
+    border-color: rgb(111 111 111 / 15%);
 }
 
 /* area footer  */
@@ -454,6 +459,7 @@ li.indicizzazione {
 
 footer ul a {
     color: white;
+    text-decoration: none;
 }
 
 div.linea-footer {
@@ -473,9 +479,10 @@ div.linea-footer {
 }
 
 div.text-italian i.fa-globe-americas {
-    padding: 0 20px 0 0;
+    padding: 0 10px 0 0;
 }
 
 div.text-italian i.fa-caret-up {
-    padding: 0 0 0 20px;
+    padding: 0 0 0 10px;
 }
+
