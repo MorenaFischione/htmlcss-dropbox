@@ -13,6 +13,10 @@ ul {
     list-style-type: none;
 }
 
+header ul li a {
+    text-decoration: none;
+}
+
 header li {
     display: inline-block;
 }
@@ -330,12 +334,54 @@ div.contain-coll div.coll-2 {
 .contain-logo {
     width: 50%;
     height: 250px;
-    text-align: center;
-    line-height: 250px;
+    position: relative;
 }
 
 
 .logo {
+    position: absolute;
+    top: 106px;
+    left: 69px;
+    width: 50%;
+    filter: invert(1);
+}
+
+.logo-arizona {
+    position: absolute;
+    top: 68px;
+    left: 78px;
+    width: 50%;
+    filter: invert(1);
+}
+
+.logo-topps {
+    position: absolute;
+    top: 79px;
+    left: 74px;
+    width: 50%;
+    filter: invert(1);
+}
+
+.logo-hearst {
+    position: absolute;
+    top: 130px;
+    left: 76px;
+    width: 50%;
+    filter: invert(1);
+}
+
+.logo-lonely {
+    position: absolute;
+    top: 84px;
+    left: 76px;
+    width: 50%;
+    filter: invert(1);
+}
+
+.logo-channel {
+    position: absolute;
+    top: 84px;
+    left: 76px;
     width: 50%;
     filter: invert(1);
 }
