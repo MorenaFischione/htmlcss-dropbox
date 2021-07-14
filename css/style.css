@@ -86,7 +86,7 @@ section.jumbotron p.description-jumbotron {
 }
 
 .button {
-    width: 340px;
+    max-width: 340px;
     padding: 12px 24px;
     background-color: rgb(15, 87, 221);
     color: white;
@@ -311,9 +311,6 @@ span.underline {
     text-decoration: underline;
 }
 
-div.contain-coll div.coll-2 {
-    padding: 0 5px;
-}
 
 /* quinta sezione  */
 
